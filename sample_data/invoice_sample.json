@@ -1,0 +1,892 @@
+{
+  "header": {
+    "originalRequestMessageId": "4d11e214-8d51-4ad2-a145-018da9336a23",
+    "invoiceId": 2526304,
+    "validationStatus": "Unneeded",
+    "lastUpdate": "2024-02-14T19:58:56.973Z",
+    "paymentStatus": "Payable",
+    "invoiceName": "2024-02-14 sahmed@it.ucla.edu 01",
+    "invoiceNumber": "I00092",
+    "originalInvoiceNumber": "I00092",
+    "invoiceType": "Invoice",
+    "invoiceLineType": "PO",
+    "invoiceSource": "Manual",
+    "invoiceDate": "2024-02-14T00:00:00.000Z",
+    "invoiceCreateDate": "2024-02-14T00:00:00.000Z",
+    "dueDate": "2024-03-15T00:00:00.000Z",
+    "termDiscountAmount": 0,
+    "invoicedBy": {
+      "username": "sahmed@it.ucla.edu",
+      "businessUnit": "0004",
+      "email": "sahmed@it.ucla.edu"
+    },
+    "businessUnit": "0004",
+    "supplier": {
+      "id": 1003837241,
+      "name": "10x genomics, inc.",
+      "supplierNumber": "279765",
+      "duns": "DNP",
+      "contactInfoList": {
+        "contactInfo": [
+          {
+            "type": "main",
+            "address": {
+              "addressLineList": {
+                "addressLine": [
+                  {
+                    "lineNumber": 1,
+                    "addressLine": "6230 STONERIDGE MALL RD"
+                  }
+                ]
+              },
+              "city": "PLEASANTON",
+              "state": "CA",
+              "postalCode": "94588",
+              "country": "United States",
+              "isoCountryCode": "US"
+            }
+          }
+        ]
+      }
+    },
+    "supplierInvoiceNumber": "InvoiceTest125",
+    "billTo": {
+      "address": {
+        "addressLineList": {
+          "addressLine": [
+            {
+              "lineNumber": 1,
+              "addressLine": "10920 Wilshire Blvd"
+            }
+          ]
+        },
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90024",
+        "country": "United States",
+        "isoCountryCode": "US",
+        "addressCode": "UCLA - Accounts Payable"
+      }
+    },
+    "shipTo": {
+      "address": {
+        "addressLineList": {
+          "addressLine": [
+            {
+              "lineNumber": 1,
+              "addressLine": "1 Cyclotron Rd"
+            }
+          ]
+        },
+        "city": "Berkeley",
+        "state": "CA",
+        "postalCode": "94720",
+        "country": "United States",
+        "isoCountryCode": "US",
+        "addressCode": "212007"
+      }
+    },
+    "remitTo": {
+      "internalId": 579163729,
+      "address": {
+        "addressLineList": {
+          "addressLine": [
+            {
+              "lineNumber": 1,
+              "addressLine": "123  Parkland Blvd"
+            },
+            {
+              "lineNumber": 2
+            },
+            {
+              "lineNumber": 3
+            }
+          ]
+        },
+        "city": "Dallas",
+        "state": "TX",
+        "postalCode": "75235",
+        "country": "United States",
+        "isoCountryCode": "US"
+      },
+      "addressCode": "test"
+    },
+    "terms": {
+      "discount": {},
+      "days": 0,
+      "type": "Net",
+      "daysAfter": 30,
+      "standardPaymentTermsCode": "Net 30"
+    },
+    "payment": {
+      "method": "Unknown",
+      "paidByExternalPaymentProcessor": "false"
+    },
+    "accountingDate": "2024-02-14T00:00:00.000Z",
+    "freightOnBoard": "Destination",
+    "additionalInfo": {
+      "externalInfo": {
+        "attachmentList": {
+          "attachment": []
+        }
+      },
+      "internalInfo": {
+        "attachmentList": {
+          "attachment": []
+        }
+      },
+      "ocrAttachmentList": {
+        "attachment": []
+      }
+    },
+    "matchStatus": "Matched",
+    "workflowStatus": "Completed",
+    "nonPOInvoice": "false",
+    "containsNonPOLines": "false",
+    "customFieldValueSetList": {
+      "customFieldValueSet": [
+        {
+          "name": "APLineCode",
+          "label": "AP Line Code",
+          "customFieldValueList": {
+            "customFieldValue": [
+              {}
+            ]
+          }
+        },
+        {
+          "name": "Bank Code",
+          "label": "Override Payment Type",
+          "customFieldValueList": {
+            "customFieldValue": [
+              {}
+            ]
+          }
+        },
+        {
+          "name": "CheckDistribCode",
+          "label": "Check Distribution Code",
+          "customFieldValueList": {
+            "customFieldValue": [
+              {}
+            ]
+          }
+        },
+        {
+          "name": "DecliningBalancePO",
+          "label": "Declining Balance PO",
+          "customFieldValueList": {
+            "customFieldValue": [
+              {}
+            ]
+          }
+        },
+        {
+          "name": "EncumbranceDateOverride",
+          "label": "Fiscal Year Override",
+          "customFieldValueList": {
+            "customFieldValue": [
+              {}
+            ]
+          }
+        },
+        {
+          "name": "IncomeReportCode",
+          "label": "Income Report Code",
+          "customFieldValueList": {
+            "customFieldValue": [
+              {}
+            ]
+          }
+        },
+        {
+          "name": "OASISLoginID",
+          "label": "OASISLoginID",
+          "customFieldValueList": {
+            "customFieldValue": [
+              {}
+            ]
+          }
+        },
+        {
+          "name": "IsReceiptRequired",
+          "label": "Requires Receiving",
+          "customFieldValueList": {
+            "customFieldValue": [
+              {}
+            ]
+          }
+        },
+        {
+          "name": "SystemSource",
+          "label": "System Source",
+          "customFieldValueList": {
+            "customFieldValue": [
+              {}
+            ]
+          }
+        },
+        {
+          "name": "TaxCode",
+          "label": "Tax Code",
+          "customFieldValueList": {
+            "customFieldValue": [
+              {
+                "value": "T",
+                "description": "TAXABLE"
+              }
+            ]
+          }
+        },
+        {
+          "name": "TaxRateCode",
+          "label": "Tax Rate Code",
+          "customFieldValueList": {
+            "customFieldValue": [
+              {
+                "value": "M",
+                "description": "9.50% - STATE & LACTC USE TAX PAYABLE"
+              }
+            ]
+          }
+        },
+        {
+          "name": "UCLALoginID",
+          "label": "UCLALoginID",
+          "customFieldValueList": {
+            "customFieldValue": [
+              {}
+            ]
+          }
+        },
+        {
+          "name": "UseTax",
+          "label": "Use Tax Codes",
+          "customFieldValueList": {
+            "customFieldValue": [
+              {}
+            ]
+          }
+        },
+        {
+          "name": "Error",
+          "label": "Validation Error",
+          "customFieldValueList": {
+            "customFieldValue": [
+              {
+                "value": "false"
+              }
+            ]
+          }
+        },
+        {
+          "name": "WireTransfer",
+          "label": "Wire Transfer?",
+          "customFieldValueList": {
+            "customFieldValue": [
+              {}
+            ]
+          }
+        },
+        {
+          "name": "Manual Check",
+          "label": "Manual Check?",
+          "customFieldValueList": {
+            "customFieldValue": [
+              {}
+            ]
+          }
+        },
+        {
+          "name": "INVOICE_INCLUDES_PREPAY_FLAG",
+          "label": "o_Invoice Includes Prepayment",
+          "customFieldValueList": {
+            "customFieldValue": [
+              {}
+            ]
+          }
+        },
+        {
+          "name": "PREPAY_GL_DATE",
+          "label": "o_Prepayment Accounting Date",
+          "customFieldValueList": {
+            "customFieldValue": [
+              {}
+            ]
+          }
+        },
+        {
+          "name": "PREPAY_APPLY_AMOUNT",
+          "label": "o_Prepayment Application Amount",
+          "customFieldValueList": {
+            "customFieldValue": [
+              {}
+            ]
+          }
+        },
+        {
+          "name": "PREPAY_LINE_NUM",
+          "label": "o_Prepayment Line Number",
+          "customFieldValueList": {
+            "customFieldValue": [
+              {}
+            ]
+          }
+        },
+        {
+          "name": "PaymentAmount",
+          "label": "o_Payment Amount",
+          "customFieldValueList": {
+            "customFieldValue": [
+              {}
+            ]
+          }
+        },
+        {
+          "name": "RDFlag",
+          "label": "R & D",
+          "customFieldValueList": {
+            "customFieldValue": [
+              {
+                "value": "false"
+              }
+            ]
+          }
+        },
+        {
+          "name": "ALMA_Invoice_ID",
+          "label": "a_Alma Invoice ID",
+          "customFieldValueList": {
+            "customFieldValue": [
+              {}
+            ]
+          }
+        }
+      ]
+    },
+    "splittableFieldSetGroupList": {
+      "splittableFieldSetGroup": [
+        {
+          "splittableFieldIndexSet": [
+            {
+              "context": "Line",
+              "splittableFieldIndexList": {
+                "splittableFieldIndex": [
+                  {
+                    "customFieldValueList": {
+                      "customFieldValue": [
+                        {
+                          "internalName": "FundingType",
+                          "value": "COA",
+                          "description": "COA"
+                        },
+                        {
+                          "internalName": "Entity",
+                          "value": "1411",
+                          "description": "UCLA Campus"
+                        },
+                        {
+                          "internalName": "Fund",
+                          "value": "14306",
+                          "description": "Gse And Is Leadership Program"
+                        },
+                        {
+                          "internalName": "Financial_Unit",
+                          "value": "1000006",
+                          "description": "EDU - Education Leadership Program"
+                        },
+                        {
+                          "internalName": "Account",
+                          "value": "100000",
+                          "description": "BOA Campus Main Depository"
+                        },
+                        {
+                          "internalName": "Transaction_Class",
+                          "value": "400",
+                          "description": "Instruction - Academic"
+                        },
+                        {
+                          "internalName": "Program",
+                          "value": "10100",
+                          "description": "10100"
+                        },
+                        {
+                          "internalName": "Portfolio",
+                          "value": "B0018081",
+                          "description": "CTR FOR EARTHQUAKE ENGINEERING RES(2021)"
+                        },
+                        {
+                          "internalName": "Flex",
+                          "value": "10000001",
+                          "description": "10000001"
+                        },
+                        {
+                          "internalName": "Activity",
+                          "value": "100000",
+                          "description": "100000"
+                        },
+                        {
+                          "internalName": "Project",
+                          "value": "00000000",
+                          "description": "00000000"
+                        },
+                        {
+                          "internalName": "Organization",
+                          "value": "0000000",
+                          "description": "0000000"
+                        },
+                        {
+                          "internalName": "ExpenditureType",
+                          "value": "000000",
+                          "description": "000000"
+                        },
+                        {
+                          "internalName": "Task",
+                          "value": "000000",
+                          "description": "000000"
+                        },
+                        {
+                          "internalName": "Award",
+                          "value": "000000",
+                          "description": "000000"
+                        },
+                        {
+                          "internalName": "Funding_Source",
+                          "value": "000",
+                          "description": "000"
+                        },
+                        {
+                          "internalName": "Future",
+                          "value": "000000",
+                          "description": "Default"
+                        },
+                        {
+                          "internalName": "Intercompany",
+                          "value": "000000000",
+                          "description": "Default"
+                        },
+                        {
+                          "internalName": "Future2"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "splittableFieldIndexSet": [
+            {
+              "context": "Line",
+              "splittableFieldIndexList": {
+                "splittableFieldIndex": [
+                  {
+                    "customFieldValueList": {
+                      "customFieldValue": [
+                        {
+                          "internalName": "FAULocationCode"
+                        },
+                        {
+                          "internalName": "DepartmentCode"
+                        },
+                        {
+                          "internalName": "FAUAccountNumber"
+                        },
+                        {
+                          "internalName": "FAUCostCenterCode"
+                        },
+                        {
+                          "internalName": "FAUFundNumber",
+                          "value": "19900",
+                          "description": "GENERAL FUNDS"
+                        },
+                        {
+                          "internalName": "FAUProject"
+                        },
+                        {
+                          "internalName": "FAUObjectCode"
+                        },
+                        {
+                          "internalName": "FAUSubCode"
+                        },
+                        {
+                          "internalName": "FAUSource"
+                        },
+                        {
+                          "internalName": "FAUReference"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "taxCharge1": 102.5,
+    "taxCharge2": 0,
+    "shippingCharge": 0,
+    "handlingCharge": 0,
+    "discountAmount": 0,
+    "allocationMethod": "Weighted",
+    "earlyPaymentDiscount": 0,
+    "miscFeeList": {
+      "miscFee": [
+        {
+          "name": "MiscFee1",
+          "fee": 0
+        }
+      ]
+    },
+    "tax1HeaderChargeDetail": {
+      "currentTax": 102.5,
+      "engineTax": 0
+    },
+    "total": {
+      "currency": "USD",
+      "value": 1102.5
+    }
+  },
+  "lineList": {
+    "invoiceLine": [
+      {
+        "lineId": 8875911,
+        "lineNumber": 1,
+        "item": {
+          "description": "PO with 1 line 1 distrib account",
+          "unitOfMeasure": {
+            "dimension": "EA",
+            "alternateUnitOfMeasure": [
+              {
+                "type": "system",
+                "dimension": "EA"
+              },
+              {
+                "type": "buyer",
+                "dimension": "EA"
+              },
+              {
+                "type": "supplier",
+                "dimension": "EA"
+              }
+            ]
+          },
+          "productType": "NonCatalogItem"
+        },
+        "businessUnit": "0004",
+        "poNumber": "0000000049",
+        "poLineNumber": "1",
+        "poAPStatus": "Close",
+        "receipts": {
+          "receipt": []
+        },
+        "quantity": 1,
+        "unitPrice": 1000,
+        "capitalExpense": "false",
+        "taxable": "true",
+        "taxCharge1": 102.5,
+        "taxCharge2": 0,
+        "shippingCharge": 0,
+        "handlingCharge": 0,
+        "discountAmount": 0,
+        "earlyPaymentDiscount": 0,
+        "matchStatus": "Matched",
+        "isSubstituteItem": "false",
+        "toleranceStatus": "Exact",
+        "fulfillmentCenterName": "Fulfillment Center 1",
+        "additionalInfo": {
+          "externalInfo": {
+            "attachmentList": {
+              "attachment": []
+            }
+          },
+          "internalInfo": {
+            "attachmentList": {
+              "attachment": []
+            }
+          },
+          "ocrAttachmentList": {
+            "attachment": []
+          }
+        },
+        "invoiceOwner": {
+          "businessUnit": "UCLA",
+          "email": "dl@velocityprocurement.com"
+        },
+        "customFieldValueSetList": {
+          "customFieldValueSet": [
+            {
+              "name": "AdjustmentCode",
+              "label": "AdjustmentCode",
+              "customFieldValueList": {
+                "customFieldValue": [
+                  {}
+                ]
+              }
+            },
+            {
+              "name": "APLineCode",
+              "label": "AP Line Code",
+              "customFieldValueList": {
+                "customFieldValue": [
+                  {}
+                ]
+              }
+            },
+            {
+              "name": "TaxCode",
+              "label": "Tax Code",
+              "customFieldValueList": {
+                "customFieldValue": [
+                  {
+                    "value": "T",
+                    "description": "TAXABLE"
+                  }
+                ]
+              }
+            },
+            {
+              "name": "TaxRateCode",
+              "label": "Tax Rate Code",
+              "customFieldValueList": {
+                "customFieldValue": [
+                  {
+                    "value": "L",
+                    "description": "10.25%- LAC TAX RATE FOR CITIES IN LAC WITH 10.25 TAX"
+                  }
+                ]
+              }
+            },
+            {
+              "name": "Major_Category",
+              "label": "o_Major Category",
+              "customFieldValueList": {
+                "customFieldValue": [
+                  {}
+                ]
+              }
+            },
+            {
+              "name": "Minor_Category",
+              "label": "o_Minor Category",
+              "customFieldValueList": {
+                "customFieldValue": [
+                  {}
+                ]
+              }
+            },
+            {
+              "name": "Fixed Asset",
+              "label": "Fixed Asset",
+              "customFieldValueList": {
+                "customFieldValue": [
+                  {
+                    "value": "false"
+                  }
+                ]
+              }
+            },
+            {
+              "name": "RDFlag",
+              "label": "R & D",
+              "customFieldValueList": {
+                "customFieldValue": [
+                  {
+                    "value": "false"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "splittableFieldSetGroupList": {
+          "splittableFieldSetGroup": [
+            {
+              "splittableFieldIndexSet": [
+                {
+                  "context": "Line",
+                  "splittableFieldIndexList": {
+                    "splittableFieldIndex": [
+                      {
+                        "customFieldValueList": {
+                          "customFieldValue": [
+                            {
+                              "internalName": "FundingType",
+                              "value": "COA",
+                              "description": "COA"
+                            },
+                            {
+                              "internalName": "Entity",
+                              "value": "1411",
+                              "description": "UCLA Campus"
+                            },
+                            {
+                              "internalName": "Fund",
+                              "value": "14306",
+                              "description": "Gse And Is Leadership Program"
+                            },
+                            {
+                              "internalName": "Financial_Unit",
+                              "value": "1000006",
+                              "description": "EDU - Education Leadership Program"
+                            },
+                            {
+                              "internalName": "Account",
+                              "value": "100000",
+                              "description": "BOA Campus Main Depository"
+                            },
+                            {
+                              "internalName": "Transaction_Class",
+                              "value": "400",
+                              "description": "Instruction - Academic"
+                            },
+                            {
+                              "internalName": "Program",
+                              "value": "10100",
+                              "description": "10100"
+                            },
+                            {
+                              "internalName": "Portfolio",
+                              "value": "B0018081",
+                              "description": "CTR FOR EARTHQUAKE ENGINEERING RES(2021)"
+                            },
+                            {
+                              "internalName": "Flex",
+                              "value": "10000001",
+                              "description": "10000001"
+                            },
+                            {
+                              "internalName": "Activity",
+                              "value": "100000",
+                              "description": "100000"
+                            },
+                            {
+                              "internalName": "Project",
+                              "value": "00000000",
+                              "description": "00000000"
+                            },
+                            {
+                              "internalName": "Organization",
+                              "value": "0000000",
+                              "description": "0000000"
+                            },
+                            {
+                              "internalName": "ExpenditureType",
+                              "value": "000000",
+                              "description": "000000"
+                            },
+                            {
+                              "internalName": "Task",
+                              "value": "000000",
+                              "description": "000000"
+                            },
+                            {
+                              "internalName": "Award",
+                              "value": "000000",
+                              "description": "000000"
+                            },
+                            {
+                              "internalName": "Funding_Source",
+                              "value": "000",
+                              "description": "000"
+                            },
+                            {
+                              "internalName": "Future",
+                              "value": "000000",
+                              "description": "Default"
+                            },
+                            {
+                              "internalName": "Intercompany",
+                              "value": "000000000",
+                              "description": "Default"
+                            },
+                            {
+                              "internalName": "Future2"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "splittableFieldIndexSet": [
+                {
+                  "context": "Line",
+                  "splittableFieldIndexList": {
+                    "splittableFieldIndex": [
+                      {
+                        "customFieldValueList": {
+                          "customFieldValue": [
+                            {
+                              "internalName": "FAULocationCode"
+                            },
+                            {
+                              "internalName": "DepartmentCode"
+                            },
+                            {
+                              "internalName": "FAUAccountNumber"
+                            },
+                            {
+                              "internalName": "FAUCostCenterCode"
+                            },
+                            {
+                              "internalName": "FAUFundNumber",
+                              "value": "19900",
+                              "description": "GENERAL FUNDS"
+                            },
+                            {
+                              "internalName": "FAUProject"
+                            },
+                            {
+                              "internalName": "FAUObjectCode"
+                            },
+                            {
+                              "internalName": "FAUSubCode"
+                            },
+                            {
+                              "internalName": "FAUSource"
+                            },
+                            {
+                              "internalName": "FAUReference"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "poMatchStatus": "Fully Matched",
+        "poLineMatchStatus": "Fully Matched",
+        "shipTo": {
+          "address": {
+            "addressLineList": {
+              "addressLine": [
+                {
+                  "lineNumber": 1,
+                  "addressLine": "1 Cyclotron Rd"
+                }
+              ]
+            },
+            "city": "Berkeley",
+            "state": "CA",
+            "postalCode": "94720",
+            "country": "United States",
+            "isoCountryCode": "US",
+            "addressCode": "212007"
+          }
+        }
+      }
+    ]
+  }
+}
