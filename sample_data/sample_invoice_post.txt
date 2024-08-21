@@ -1,0 +1,15 @@
+curl --request POST \
+     --url https://prep-reg02.api.jaggaer.com/j1p/api/public/ji/v1/invoices/ocr \
+     --header 'accept: application/json' \
+     --header 'authorization: Bearer [long token snipped]' \
+     --header 'content-type: application/json' \
+     --data '
+{
+  "invoiceOCR": {
+    "invoiceOCRHeader": {
+      "supplierInvoiceNumber": "12345"
+    }
+  },
+  "batchId": "abcde"
+}
+'

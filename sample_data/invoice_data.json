@@ -1,0 +1,36 @@
+{
+        "batchId": "0000002570020221128110515ack",
+        "batchInfo": {
+            "batchNumber": "00000027570020221128110515",
+            "batchTimestamp": "2024-01-22T00:00:00.000Z",
+            "batchDescription": "00000027570020221128110515"
+        },
+        "invoiceOcr": {
+            "invoiceOcrHeader": {
+                "supplierInvoiceNumber": "I0002024027D",
+                "invoiceType": "Invoice",
+                "billTo": {"address": {"addressCode": "156508"}},
+                "remitTo": {"address": {"addressCode": "001"}},
+                "shipTo": {"address": {"addressCode": "156508"}},
+                "businessUnit": {"internalName": "0004"},
+                "terms": {"standardPaymentTermsCode": "Net 60"},
+                "invoiceDate": "2024-01-23T00:00:00.000Z",
+                "notes": "Test OCR Non-PO Invoice - UCLA",
+                "supplier": {"supplierNumber": "006510005"}
+            },
+            "invoiceOcrLineList": {
+                "invoiceOcrLine": [
+                    {
+                        "lineNumber": 1,
+                        "ocrItem": {
+                            "description": "Test Description",
+                            "unitOfMeasure": "EA",
+                            "packagingAmount": 1
+                        },
+                        "quantity": 1.0,
+                        "unitPrice": {"currency": "USD", "money": 10.00}
+                    }
+                ]
+            }
+        }
+    }
